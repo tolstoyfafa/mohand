@@ -1,0 +1,7 @@
+name: toto
+on: push 
+jobs:
+  toto:
+    runs-on:ubuntu-latest
+    steps:
+      run: echo 'hello wordl'
